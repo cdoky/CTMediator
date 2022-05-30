@@ -21,8 +21,9 @@ let package = Package(
         .target(
             name: "CTMediator",
             path: "Sources",
-            publicHeadersPath: "Sources/CTMediator/*.h"
-            )
+            publicHeadersPath: "Sources/include"
+            ),
+        .testTarget(name: "CTMediatorTests", dependencies: ["CTMediator"])
     ],
     swiftLanguageVersions: [.v5]
 )

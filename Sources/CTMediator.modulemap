@@ -1,0 +1,6 @@
+framework module CTMediator {
+  umbrella header "Mediator.h"
+  
+  export *
+  module * { export * }
+}
