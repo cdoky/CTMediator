@@ -21,7 +21,7 @@ let package = Package(
         .target(
             name: "CTMediator",
             path: "Sources",
-            publicHeadersPath: "Sources"
+            publicHeadersPath: "Sources/CTMediator/*.h"
             )
     ],
     swiftLanguageVersions: [.v5]
