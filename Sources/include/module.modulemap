@@ -1,4 +1,4 @@
-module Header {
+module CTMediator {
     header "Module.h"
     export *
 }
