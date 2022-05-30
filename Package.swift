@@ -21,7 +21,8 @@ let package = Package(
         .target(
             name: "CTMediator",
             path: "Sources",
-            publicHeadersPath: "Sources/include"
+            exclude: ["CTMediator.modulemap"],
+            publicHeadersPath: "CTMediator"
             ),
         .testTarget(name: "CTMediatorTests", dependencies: ["CTMediator"])
     ],
