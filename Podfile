@@ -4,9 +4,9 @@
 # use_frameworks!
 
 target 'CTMediator' do
-
-pod "HandyFrame"
-# pod "CTHandyCategories"
+  pod "CTMediator", :path=>"./"
+  pod "HandyFrame"
+  pod "CTHandyCategories"
 
 end
 
